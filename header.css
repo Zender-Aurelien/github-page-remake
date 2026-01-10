@@ -1,0 +1,140 @@
+p{
+    margin:0;
+}
+body{
+    font-family:Mona Sans, Arial;
+    background-color: rgb(11, 11, 19);
+    color:white;
+}
+.header{
+    background-color:rgb(3, 2, 9);
+    position:fixed;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    top:0;
+    left:0;
+    right:0;
+    height:63px;
+    border-bottom:1px solid rgb(78, 78, 78);
+}
+.left-section, .right-section{
+    display:flex;
+    align-items:center;
+}
+.left-section p{
+    color:white;
+    font-weight:500;
+    font-size:14px;
+    margin-left:15px;
+}
+.hamburger-menu{
+    display:flex;
+    width:30px;
+    height:30px;
+    border:1px solid rgb(78, 78, 78);
+    border-radius:5px;
+    margin-left:15px;
+    flex-direction:column;
+    align-items:center;
+    cursor:pointer;
+    margin-right:15px;
+}
+.hamburger-menu div{
+    width:15px;
+    height:1px;
+    background-color:gray;
+    margin-top: 7px;
+}
+.logo{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    background-color:white;
+}
+.repo-container, .notification-container, .pull-container, .issue-container{
+    display:flex;
+    align-items:center;
+    border:1px solid rgb(78, 78, 78);
+    border-radius:5px;
+    height:30px;
+    width:30px;
+    cursor:pointer;
+    justify-content: center;
+    color:white;
+    margin-right:10px;
+}
+.create-container, .copilot-container{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+    margin-right:10px;
+    justify-content: space-between;
+}
+.create-container{
+    height:30px;
+    width:45px;
+    border:1px solid rgb(78, 78, 78);
+    border-radius:5px;
+}
+.copilot-container .down-arrow{
+    height:25px;
+    width:20px;
+    padding-top:5px;
+    text-align:center;
+    border-radius:0 5px 5px 0;
+    border:1px solid rgb(78, 78, 78);
+}
+.separator{
+    width:1px;
+    height:20px;
+    background-color:rgb(78, 78, 78);
+    margin-right:13px;
+}
+.copilot-container .copilot-icon{
+    height:25px;
+    width:30px;
+    padding-top:5px;
+    border-top:1px solid rgb(78, 78, 78);
+    border-left:1px solid rgb(78, 78, 78);
+    border-bottom:1px solid rgb(78, 78, 78);
+    border-radius:5px 0 0 5px;
+    text-align:center;
+}
+.copilot-icon{
+    color:white;
+    font-weight:600;
+    margin-left:6px;
+}
+.plus-icon, .down-arrow{
+    color:white;
+    font-weight:600;
+}
+.plus-icon{
+    margin:0;
+    margin-left:10px;
+}
+.down-arrow{
+    margin:0;
+    margin-right:5px;
+}
+.profile-container{
+    width:30px;
+    height:30px;
+    border:1px solid white;
+    border-radius:50%;
+    background-color:yellow;
+    margin-right:10px;
+}
+
+.search-bar-container{
+    margin-right:10px;
+}
+.search-bar{
+    width:250px;
+    padding:7px 10px;
+    background-color:rgb(3, 2, 9);
+    border:1px solid rgb(78, 78, 78);
+    border-radius:5px;
+    color:lightgray;
+}

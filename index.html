@@ -1,16 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="sidebars.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Zender-Aurelien (Zender Aurelien)</title>
+        <title>GitHub Dashboard</title>
     </head>
     <body>
         <header class="header">
             <div class="left-section">
-                <p>Zender-Aurelien</p>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="logo"></div>
+                <p>Dashboard</p>
+            </div>
+            <div class="right-section">
+                <div class ="search-bar-container">
+                    <input type="text" class="search-bar" placeholder="Type &#34;/&#34; to search">
+                </div>
+                <div class="copilot-container">
+                    <div class="copilot-icon">C</div>
+                    <div class="down-arrow">▾</div>
+                </div>
+                <div class="separator"></div>
+                <div class="create-container">
+                    <div class="plus-icon">+</div>
+                    <div class="down-arrow">▾</div>
+                </div>
+                <div class="issue-container">
+                    I
+                </div>
+                <div class="pull-container">
+                    P
+                </div>
+                <div class="repo-container">
+                    R
+                </div>
+                <div class="notification-container">
+                    N
+                </div>
+                <div class="profile-container"></div>
             </div>
         </header>
+        <div class="repo-list">
+            <div class="repo-header">
+                <p>Top repositories</p>
+                <button class="new-repo-button">New</button>
+            </div>
+            <input class="repo-search" type="text" placeholder="Find a repository...">
+            <div class="repo-item-container">
+                <div class="repo-item">
+                    <div class="repo-icon"></div>
+                    <div class="repo-name">repository-1</div>
+                </div>
+                <div class="repo-item">
+                    <div class="repo-icon"></div>
+                    <div class="repo-name">repository-2</div>
+            </div>
+        </div>
     </body>
 </html>
