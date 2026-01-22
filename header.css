@@ -54,7 +54,7 @@
     width:30px;
     cursor:pointer;
     justify-content: center;
-    color:white;
+    color:gray;
     margin-right:10px;
 }
 .create-container, .copilot-container{
