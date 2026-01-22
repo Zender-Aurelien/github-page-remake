@@ -2,15 +2,16 @@ p{
     margin:0;
 }
 body{
+    position:relative;
     font-family:Mona Sans, Arial;
     background-color: rgb(11, 11, 19);
     color:white;
 }
 .main-content{
-    margin-top:80px;
-    margin-left:370px;
-    display:flex;
-    flex-direction: column;;
+    position:absolute;
+    top:80px;
+    left:370px;
+    width:calc(100% - 370px);
 }
 .main-content h2{
     font-size:24px;
@@ -19,7 +20,6 @@ body{
 }
 
 .search-box-container{
-    position:relative;
     display:flex;
     max-width:800px;
     flex:1;
@@ -45,13 +45,11 @@ body{
     margin-left:5px;
 }
 .box-container2{
-    position:absolute;
     padding:5px;
+    white-space:nowrap;
     font-size:14px;
     margin-left:5px;
     width:245px;
-    top:85px;
-    left:5px;
     color:lightgray;
     justify-content:space-between;
     display:flex;
@@ -66,15 +64,15 @@ body{
     background-color:rgb(70, 70, 70);
 }
 .search-bottom-area{
+    position:relative;
+    top:10px;
     display:flex;
     justify-content:space-between;
     align-items:center;
     margin-top:10px;
+
 }
 .send-btn{
-    position:absolute;
-    top:85px;
-    right:5px;
     padding:5px;
     margin-right:5px;
 }
