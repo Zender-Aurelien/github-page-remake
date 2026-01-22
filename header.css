@@ -1,11 +1,4 @@
-p{
-    margin:0;
-}
-body{
-    font-family:Mona Sans, Arial;
-    background-color: rgb(11, 11, 19);
-    color:white;
-}
+
 .header{
     background-color:rgb(3, 2, 9);
     position:fixed;

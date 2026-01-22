@@ -1,3 +1,11 @@
+p{
+    margin:0;
+}
+body{
+    font-family:Mona Sans, Arial;
+    background-color: rgb(11, 11, 19);
+    color:white;
+}
 .main-content{
     margin-top:80px;
     margin-left:370px;
@@ -13,31 +21,37 @@
 .search-box-container{
     position:relative;
     display:flex;
+    max-width:800px;
     flex:1;
     flex-direction:column;
 }
 .search-box{
     background-color:rgb(36, 35, 40);
     border:1px solid rgb(78, 78, 78);
-    border-radius:5px;
+    border-radius:10px;
     max-width:800px;
     font-size:16px;
     resize:none;
     height:100px;
     color:white;
+    font-family:Arial;
     height:100px;
-    padding-left:10px;
-    padding-top:15px;
+    padding-left:15px;
+    padding-top:20px;
 }
 .plus-icon{
     color:lightgray;
+    margin:0;
+    margin-left:5px;
 }
 .box-container2{
     position:absolute;
     padding:5px;
     font-size:14px;
+    margin-left:5px;
     width:245px;
-    top:90px;
+    top:85px;
+    left:5px;
     color:lightgray;
     justify-content:space-between;
     display:flex;
@@ -45,8 +59,24 @@
 }
 .box-container2:hover{
     background-color:rgb(50, 50, 50);
+    border-radius:5px;
     cursor:pointer;
 }
 .box-container2:active{
+    background-color:rgb(70, 70, 70);
+}
+.send-btn{
+    position:absolute;
+    top:85px;
+    right:5px;
+    padding:5px;
+    margin-right:5px;
+}
+.send-btn:hover{
+    background-color:rgb(50, 50, 50);
+    border-radius:5px;
+    cursor:pointer;
+}
+.send-btn:active{
     background-color:rgb(70, 70, 70);
 }
